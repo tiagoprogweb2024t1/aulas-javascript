@@ -33,12 +33,15 @@ const carro = {
     modelo: "Uno com escada",
     anoDeFabricacao: 1996,
     portas: 2,
-    cor: "branco"
+    cor: "branco",
+
+    // Propriedade como array
+    opcionais: ["Ar-condicionado", "vidro elétrico", "alarme"]
 };
 
 /* 2) Mostre a seguinte mensagem no console:
 O Fiat Uno fabricado em 1996 com 2 portas e com vidros elétricos, 
 foi um famoso carro no Brasil. */
 console.log(
-    `O ${carro.marca} ${carro.modelo} fabricado em ${carro.anoDeFabricacao} com ${carro.portas} portas e com ...., foi um famoso carro no Brasil.`
+    `O ${carro.marca} ${carro.modelo} fabricado em ${carro.anoDeFabricacao} com ${carro.portas} portas e com ${carro.opcionais[1]}, foi um famoso carro no Brasil.`
 );
