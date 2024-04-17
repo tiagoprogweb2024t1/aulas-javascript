@@ -25,10 +25,16 @@ if(numero > 5){
 let usuario = "Ozzy Osbourne";
 let idade = 13;
 
+// Variável com propósito de guardar a palavra "maior" ou "menor"
+let texto; // undefined/indefinida
+
 if(idade >= 18){
-    console.log(`${usuario} é maior de idade.`);
+    texto = "maior";
 } else {
-    console.log(`${usuario} é menor de idade.`);
+    texto = "menor";
 }
+console.log(`${usuario} é ${texto} de idade.`);
+
+
 
 
