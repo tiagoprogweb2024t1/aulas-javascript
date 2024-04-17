@@ -1,6 +1,6 @@
 'use strict';
 
-// Declarando um objeto
+// Declarando um objeto SIMPLES
 const livro = {
     titulo: "Senhor dos Anéis",
     autor: "J.R.R. Tolkien",
@@ -28,6 +28,8 @@ console.log(
 - quantidade de portas: (exemplo: 2)
 - cor: (exemplo: branca)
 - lista de opcionais (ar-condicionado, vidros elétricos, alarme) */
+
+// Objeto com Array
 const carro = {
     marca: "Fiat",
     modelo: "Uno com escada",
@@ -45,3 +47,21 @@ foi um famoso carro no Brasil. */
 console.log(
     `O ${carro.marca} ${carro.modelo} fabricado em ${carro.anoDeFabricacao} com ${carro.portas} portas e com ${carro.opcionais[1]}, foi um famoso carro no Brasil.`
 );
+
+// Objeto com array e outro objeto
+const pessoa = {
+    nome: "Chapolin Colorado",
+    idade: 20,
+
+    /* Obs: usamos aspas neste caso pois não se trata
+    de números matemáticos ou monetários. */
+    telefones: ["11-2135-0300", "11-96666-5555"],
+    
+    // Propriedade como objeto
+    medidasFisicas: {
+        peso: 75,
+        altura: 1.66
+    }
+};
+
+console.log(`O ${pessoa.nome} tem ${pessoa.medidasFisicas.peso}kg e ${pessoa.medidasFisicas.altura}m de altura. Contato: ${pessoa.telefones}.`);
