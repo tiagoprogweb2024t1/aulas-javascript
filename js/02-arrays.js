@@ -34,11 +34,9 @@ console.log(
 
 /* MATRIZ (array com mais de uma dimensão) */
 const tecnologias = [
-
-    ["HTML5", "CSS3", "JavaScript"],
-
-    ["PHP", "Node.js", "SQL", "Python", "Firebase"]
-
+    ["HTML5", "CSS3", "JavaScript"],                    // 0
+    ["PHP", "Node.js", "SQL", "Python", "Firebase"],     // 1
 ];
 
 console.log(tecnologias[0][1]); // CSS3
+console.log(tecnologias[1][3]); // Python
