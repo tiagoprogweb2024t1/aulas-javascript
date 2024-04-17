@@ -23,7 +23,7 @@ if(numero > 5){
 
 // Condicional COMPOSTA
 let usuario = "Ozzy Osbourne";
-let idade = 13;
+let idade = 10;
 
 // Variável com propósito de guardar a palavra "maior" ou "menor"
 let texto; // undefined/indefinida
@@ -34,6 +34,27 @@ if(idade >= 18){
     texto = "menor";
 }
 console.log(`${usuario} é ${texto} de idade.`);
+
+console.log("if/else usando ternário ?:");
+let texto2 = idade >= 18 ? "maior" : "menor";
+
+console.log(`${usuario} é ${texto2} de idade.`);   
+
+// Aplicando o ternário direto dentro da template string
+console.log(`${usuario} é ${idade >= 18 ? "maior" : "menor"} de idade.`);
+
+
+// Condicional ENCADEADA/SUCESSIVA
+let texto3;
+
+if(idade >= 60){
+    texto3 = "idoso(a)";
+} else if(idade >= 18) {
+    texto3 = "adulto(a)";
+} else {
+    texto3 = "menor de idade";
+}
+console.log(`${usuario} tem ${idade} anos e é ${texto3}`);
 
 
 
