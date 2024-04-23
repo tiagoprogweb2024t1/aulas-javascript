@@ -1,5 +1,20 @@
 # JavaScript - Exercícios
 
+## 23/04/2024
+
+1. Crie um arquivo chamado **exercicio02.html**.
+
+2. A partir dele, faça um script chamado **exercicio02.js** (não se esqueça de usar a pasta `js`).
+
+3. Crie um array de Clientes contendo 3 objetos. Cada objeto deve ter um identificador (1, 2 e 3) e o nome do cliente (Goku, Naruto, Shiryu).
+
+4. Faça um loop (qualquer um dos que vimos) e mostre no console os dados de Cliente conforme a seguir: 
+    - Cliente: Goku (id: 1)
+    - Cliente: Naruto (id: 2)
+    - Cliente: Shiryu (id: 3)
+
+---
+
 ## 18/04/2024
 
 1. Crie um arquivo chamado **exercicio01.html**.
