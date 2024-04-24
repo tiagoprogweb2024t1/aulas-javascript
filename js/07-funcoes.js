@@ -122,6 +122,24 @@ console.log(`É ${pessoa.verificaIdade()}`);
 
 
 
+console.log( somar(500,1000) );
+console.log( somar(200,350) );
+
+/* Podemos guardar o resultado do retorno
+de funções em novas variáveis/constantes. */
+let resultadoA = somar(500,1000);
+let resultadoB = somar(200,350);
+
+/* Isso possibilita ao programador usar
+estes resultados em outros lugares e 
+para outras finalidades. */
+console.log(resultadoA);
+console.log( formatarValor(resultadoA) );
+if(resultadoA > resultadoB ){
+    console.log("teste");
+}
+
+
 
 
 
