@@ -7,10 +7,10 @@ function converterEmReais(valor){
     return valor * cotacaoDoDia;
 }
 
-function formatarMoeda(valor){
+function formatarMoeda(valor, siglaDaMoeda){
     const opcoes = {
         style: "currency",
-        currency: "BRL"
+        currency: siglaDaMoeda
     };
 
     return new Intl.NumberFormat(
@@ -23,10 +23,12 @@ console.log( converterEmReais(valorEmDolar) );
 
 // Versão 1 (função como parâmetro para outra função) com formatação
 console.log( 
-    formatarMoeda( converterEmReais(valorEmDolar) ) 
+    formatarMoeda( converterEmReais(valorEmDolar), "BRL" ) 
 );
 
 // Versão 2 (primeiro, guardamos o resultado da conversão; depois passamos o resultado para a formatação)
 let resultadoEmReais = converterEmReais(valorEmDolar);
-console.log( formatarMoeda(resultadoEmReais) );
+console.log( formatarMoeda(resultadoEmReais, "BRL") );
 
+// Formatando o valor em dólar
+console.log( formatarMoeda(valorEmDolar, "USD") );
