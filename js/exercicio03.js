@@ -1,6 +1,5 @@
 'use strict';
 
-// Dados de entrada
 let cotacaoDoDia = 5.16;
 let valorEmDolar = 1000;
 
