@@ -4,9 +4,9 @@
 let cotacaoDoDia = 5.16;
 let valorEmDolar = 1000;
 
-/* 1) Crie uma função para converter */
+function converterEmReais(valor){
+    return valor * cotacaoDoDia;
+}
 
-/* 2.1) Chame a função e passe pra ela o valorEmDolar como
-parâmetro */
+console.log( converterEmReais(valorEmDolar) );
 
-/* 2.2) Mostre no console o retorno da função */
