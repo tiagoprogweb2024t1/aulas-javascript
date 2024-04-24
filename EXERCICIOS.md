@@ -1,5 +1,32 @@
 # JavaScript - Exercícios
 
+## 24/04/2024
+
+1. Crie um arquivo chamado **exercicio03.html**.
+2. A partir dele, faça um script chamado **exercicio03.js** (não se esqueça de usar a pasta `js`).
+3. Programe no arquivo JS recursos que permitam converter um valor em dólar para um valor em reais. 
+4. Após a conversão, mostre o valor original em dólar e o valor convertido para reais.
+
+### Orientações adicionais
+
+- A ideia é que, por exemplo, se for dado o valor de 1000 dólares, o script o converta para 5160 reais (considerando que a cotação seja de 5.16).
+
+- Crie variáveis para armazenar o valor da cotação do dia e um valor em dólares para ser usado como exemplo.
+
+- Para esta atividade, você **deverá** criar uma função chamada `converterMoeda` e **realizar dentro dela** a operação de conversão. A função deve devolver simplesmente o valor já convertido.
+
+- Para converter, basta pegar o valor em dólares e multiplicá-lo pela cotação (hoje 24/04/2024, está em R$ 5,16)
+
+
+### Desafio 🔥💡
+
+Programe **uma função** para formatar os valores conforme a moeda:
+
+- Dólar apareceria assim: $1,000.00
+- Real apareceria assim: R$ 5.160,00
+
+---
+
 ## 23/04/2024
 
 1. Crie um arquivo chamado **exercicio02.html**.
