@@ -25,6 +25,8 @@ Programe **uma função** para formatar os valores conforme a moeda:
 - Dólar apareceria assim: $1,000.00
 - Real apareceria assim: R$ 5.160,00
 
+**Mas atenção**: o desafio é fazer isso usando **somente uma função** de formatação.
+
 ---
 
 ## 23/04/2024
