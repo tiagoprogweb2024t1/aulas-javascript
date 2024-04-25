@@ -56,4 +56,14 @@ botao.addEventListener("click", function(){
     da classe (aplicada e não aplicada) */
     pagina.classList.toggle("noturno")
     divContainer.classList.toggle("noturno");
+
+    /* 🔥 DESAFIOS!!! 🔥 */
+
+    /* 1) Aplicar um efeito de mudança de cores suave */
+
+
+    /* 2) Fazer o botão mudar de texto, ou seja,
+    inicia com o texto "Ativar" e troca para texto "Desativar"
+    conforme o que estiver acontecendo. */
+    
 });
