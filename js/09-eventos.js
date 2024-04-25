@@ -46,3 +46,14 @@ exemplo01.addEventListener("click", function(){
     video.play(); // Reproduzir o video
 });
 
+
+/* Exemplo Modo Noturno */
+const divContainer = document.querySelector(".container");
+const botao = document.querySelector("#noturno");
+
+botao.addEventListener("click", function(){
+    /* Usamos toggle para alternar entre os estados
+    da classe (aplicada e não aplicada) */
+    pagina.classList.toggle("noturno")
+    divContainer.classList.toggle("noturno");
+});
