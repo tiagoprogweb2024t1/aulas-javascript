@@ -70,16 +70,25 @@ botao.addEventListener("click", function(){
     conforme o que estiver acontecendo. */
     
     // Solução 1: analisar o texto do botão
-
     /* Se o texto escrito no botão for "Ativar"... */
-    if( botao.textContent == "Ativar" ){
+    /* if( botao.textContent == "Ativar" ){
         // ... então, mude para "Desativar"
         botao.textContent = "Desativar";
     } else {
         // ... senão, volte para "Ativar"
         botao.textContent = "Ativar";
-    }
-    
+    } */
+
+    // Solução 2: analisar onde a classe foi aplicada
+
+    /* Se a pagina estiver com a classe "noturno" aplicada... */
+    if( pagina.classList.contains("noturno") ){
+        // ... então, mude o texto do botão para "Desativar"
+        botao.textContent = "Desativar";
+    } else {
+        // ... senão, mude o texto do botão para "Ativar"
+        botao.textContent = "Ativar";
+    }    
 });
 
 
@@ -91,4 +100,6 @@ let a = 10;
 let b = "10";
 console.log(a == b);    // true (verdadeiro)
 console.log(a === b);   // false (falso)
+
+
 
