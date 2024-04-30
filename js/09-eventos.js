@@ -69,4 +69,15 @@ botao.addEventListener("click", function(){
     inicia com o texto "Ativar" e troca para texto "Desativar"
     conforme o que estiver acontecendo. */
     
+    // Solução 1: analisar o texto do botão
+
+    /* Se o texto escrito no botão for "Ativar"... */
+    if( botao.textContent == "Ativar" ){
+        // ... então, mude para "Desativar"
+        botao.textContent = "Desativar";
+    } else {
+        // ... senão, volte para "Ativar"
+        botao.textContent = "Ativar";
+    }
+    
 });
