@@ -81,3 +81,14 @@ botao.addEventListener("click", function(){
     }
     
 });
+
+
+/* Sobre o duplo sinal de igual == e o triplo sinal de igual === 
+==      IGUALDADE   (considera somente valor)
+===     IGUALDADE ESTRITA (considera valor E tipo de dado) */
+
+let a = 10;
+let b = "10";
+console.log(a == b);    // true (verdadeiro)
+console.log(a === b);   // false (falso)
+
